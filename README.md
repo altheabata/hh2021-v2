@@ -1,6 +1,6 @@
 ## Unificial - the unofficial official place for cross-university events
-### *a social networking website dedicated to connecting intercollegiate/collegiate organizations and conducting club meetings as seamlessly as possible*
-### *first developed during the Hack(H)er 2021 Hackathon by Althea Bata, Isabel Ojeda, and Astride Toh
+#### *a social networking website dedicated to connecting intercollegiate/collegiate organizations and conducting club meetings as seamlessly as possible*
+#### *first developed during the Hack(H)er 2021 Hackathon by Althea Bata, Isabel Ojeda, and Astride Toh*
 
 ### Problem
 words
