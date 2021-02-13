@@ -19,6 +19,7 @@ With many assignments from the start of college, we had to meet later in the day
 shoutout to the flask framework that was put on the side due to time
 
 ### See it: Demo, Mockups, Presentation
+- Video: https://youtu.be/t69Hj_ywXgg
 - Demo: https://hackher-2021.astridetoh1.repl.co/
 - Mockups: https://drive.google.com/drive/folders/1eMYD7hW6KHZiyu76NwyA7cBKtMHzm2JN?usp=sharing
 - Presentation: https://docs.google.com/presentation/d/12_8S-Us5_DleGBLB-fkGiYuh7F5BCA0OnU2bRJUCSLQ/edit?usp=sharing
