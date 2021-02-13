@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Unificial</title>
+    <!-- link css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+    </style>
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar" id="navbar-custom">
+        <a class="navbar-brand" href="index.html">Unificial</a>
+    </nav>
+
+    <!-- signup form -->
+    <div class="w-50 p-3 container">
+      <div class="signup-form">
+        <form class="was-validated">
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="" required>
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="" required>
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="col-md-4 mb-3 form-group">
+              <select class="custom-select" required>
+                <option value="">Gender</option>
+                <option value="1">Female</option>
+                <option value="2">Male</option>
+                <option value="3">Transgender</option>
+                <option value="4">Nonbinary</option>
+                <option value="5">Prefer not to answer</option>
+              </select>
+              <div class="invalid-feedback"></div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col-md-4 mb-3 form-group">
+              <select class="custom-select" required>
+                <option value="">Account Type</option>
+                <option value="1">Student</option>
+                <option value="2">Organization</option>
+              </select>
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="col-md-4 mb-3 form-group">
+              <select class="custom-select" required>
+                <option value="">Graduation Year</option>
+                <option value="1">2020</option>
+                <option value="2">2021</option>
+                <option value="3">2022</option>
+                <option value="4">2024</option>
+                <option value="5">2025</option>
+              </select>
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="col-md-4 mb-3 form-group">
+              <select class="custom-select" required>
+                <option value="">College Name</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div class="invalid-feedback"></div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <input type="text" class="form-control is-valid" id="validationServer01" placeholder="University Email" value="" required>
+              <div class="invalid-feedback"></div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <input type="Password" class="form-control is-valid" id="validationServer01" placeholder="Password" value="" required>
+              <div class="invalid-feedback"></div>
+            </div>
+          </div>
+
+          <div class="custom-control custom-checkbox mb-3">
+            <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+            <label class="custom-control-label" for="customControlValidation1">I agree to the Terms & Conditions.</label>
+            <div class="invalid-feedback">Click this to read Unificial's Terms & Conditions.</div>
+          </div>
+
+          <div class="form-group">
+            <button class="btn btn-primary" type="submit">Sign Up</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  
+  <script src="script.js"></script>
+   
+  </body>
+</html>
